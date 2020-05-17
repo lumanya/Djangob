@@ -5,8 +5,10 @@ blinker==1.4
 cffi==1.14.0
 click==7.1.2
 colorama==0.4.3
+dj-database-url==0.5.0
 Django==3.0.6
 django-crispy-forms==1.9.0
+django-heroku==0.3.1
 dnspython==1.16.0
 email-validator==1.1.0
 Flask==1.1.2
@@ -24,6 +26,7 @@ lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
 Pillow==7.1.2
+psycopg2==2.8.5
 pycparser==2.20
 pylint==2.5.0
 pytz==2020.1
@@ -32,5 +35,6 @@ SQLAlchemy==1.3.16
 sqlparse==0.3.1
 toml==0.10.0
 Werkzeug==1.0.1
+whitenoise==5.0.1
 wrapt==1.12.1
 WTForms==2.3.1
